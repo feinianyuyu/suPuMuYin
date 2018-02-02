@@ -1,0 +1,32 @@
+{
+	"g0": [{
+		"img": "../img/index/luobo11.jpg"
+	},
+	{
+		"img": "../img/index/luobo12.jpg"
+	},
+	{
+		"img": "../img/index/luobo7.jpg"
+	}
+	],
+	"g1": [{
+		"img": "../img/index/luobo9.jpg"
+	},
+	{
+		"img": "../img/index/luobo8.jpg"
+	},
+	{
+		"img": "../img/index/luobo10.jpg"
+	}
+	],
+	"g2": [{
+		"img": "../img/index/luobo1.jpg"
+	},
+	{
+		"img": "../img/index/luobo3.jpg"
+	},
+	{
+		"img": "../img/index/luobo5.jpg"
+	}
+	] 
+}

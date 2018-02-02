@@ -1,0 +1,165 @@
+{
+	"1": [{
+		"id": 0,
+		"name": " 日康 母乳实感宽口玻璃奶瓶240ml",
+		"img": "../img/goodList/5.jpg",
+		"price1": "￥38 ",
+		"price2": "速普特惠价：￥9",
+		"discount":"60%"
+	},
+	{
+		"id": 1,
+		"name": " 日康 母乳实感宽口玻璃奶瓶240ml",
+		"img": "../img/goodList/5.jpg",
+		"price1": "￥28 ",
+		"price2": "速普特惠价：￥9",
+		"discount":"49%"
+	},
+	 {
+		"id": 2,
+		"name": " 日康 母乳实感宽口玻璃奶瓶240ml",
+		"img": "../img/goodList/5.jpg",
+		"price1": "￥26.8 ",
+		"price2": "速普特惠价：￥16.9",
+		"discount":"50%"
+	},
+	 {
+		"id": 3,
+		"name": "  日康 母乳实感宽口玻璃奶瓶240ml",
+		"img": "../img/goodList/5.jpg",
+		"price1": "￥19.9 ",
+		"price2": "速普特惠价：￥9.9",
+		"discount":"23%"
+	},
+	{
+		"id": 4,
+		"name": " 方广 有机AD钙蛋白营养面200g",
+		"img": "../img/goodList/1.jpg",
+		"price1": "￥59",
+		"price2": "速普特惠价：￥29.9",
+		"discount":"42%"
+	},
+	 {
+		"id": 5,
+		"name": " 百胜厨 非油炸麻辣海鲜风味拉面160g",
+		"img": "../img/goodList/6.jpg",
+		"price1": "￥32.9 ",
+		"price2": "速普特惠价：￥9.9",
+		"discount":"77%"
+	},
+	 {
+		"id": 6,
+		"name": " 海玉田 叉烧炭烧猪肉脯250g",
+		"img": "../img/goodList/7.jpg",
+		"price1": "￥29 ",
+		"price2": "速普特惠价：￥21.9",
+		"discount":"30%"
+	},
+	{
+		"id": 7,
+		"name": " 西诺贝 果多多草莓水果软糖40g",
+		"img": "../img/goodList/8.jpg",
+		"price1": "￥9 ",
+		"price2": "速普特惠价：￥3.9",
+		"discount":"53%"
+	}],
+
+	"2":[
+	{
+		"id": 8,
+		"name": " 西诺贝 果多多草莓水果软糖40g",
+		"img": "../img/goodList/8.jpg",
+		"price1": "￥38 ",
+		"price2": "速普特惠价：￥9",
+		"discount":"44%"
+	},
+	{
+		"id": 9,
+		"name": " 方广 有机AD钙蛋白营养面200g",
+		"img": "../img/goodList/7.jpg",
+		"price1": "￥28 ",
+		"price2": "速普特惠价：￥9",
+		"discount":"31%"
+	},
+	{
+		"id": 10,
+		"name": " 百乐麦 金装麦胚颗粒面 6个月以上240g",
+		"img": "../img/goodList/6.jpg",
+		"price1": "￥26.8 ",
+		"price2": "速普特惠价：￥16.9",
+		"discount":"42%"
+	},
+	{
+		"id": 11,
+		"name": "  方广 有机AD钙蛋白营养面200g",
+		"img": "../img/goodList/5.jpg",
+		"price1": "￥19.9 ",
+		"price2": "速普特惠价：￥9.9",
+		"discount":"46%"
+	},
+	{
+		"id": 12,
+		"name": " 日康 母乳实感宽口玻璃奶瓶240ml",
+		"img": "../img/goodList/4.jpg",
+		"price1": "￥59",
+		"price2": "速普特惠价：￥29.9",
+		"discount":"77%"
+	},
+	{
+		"id": 13,
+		"name": " 百胜厨 非油炸麻辣海鲜风味拉面160g",
+		"img": "../img/goodList/3.jpg",
+		"price1": "￥32.9 ",
+		"price2": "速普特惠价：￥9.9",
+		"discount":"34%"
+	},
+	{
+		"id": 14,
+		"name": " 海玉田 叉烧炭烧猪肉脯250g",
+		"img": "../img/goodList/2.jpg",
+		"price1": "￥29 ",
+		"price2": "速普特惠价：￥21.9",
+		"discount":"30%"
+	},
+	{
+		"id": 15,
+		"name": " 西诺贝 果多多草莓水果软糖40g",
+		"img": "../img/goodList/1.jpg",
+		"price1": "￥9 ",
+		"price2": "速普特惠价：￥3.9",
+		"discount":"51%"
+	}],
+
+	"3":[{
+		"id": 16,
+		"name": " 方广 有机AD钙蛋白营养面200g",
+		"img": "../img/goodList/1.jpg",
+		"price1": "￥38 ",
+		"price2": "速普特惠价：￥9",
+		"discount":"70%"
+	},
+	{
+		"id": 17,
+		"name": " 方广 蛋黄胡萝卜营养颗粒面200g",
+		"img": "../img/goodList/2.jpg",
+		"price1": "￥28 ",
+		"price2": "速普特惠价：￥9",
+		"discount":"72%"
+	},
+	{
+		"id": 18,
+		"name": " 百乐麦 金装麦胚颗粒面 6个月以上240g",
+		"img": "../img/goodList/3.jpg",
+		"price1": "￥26.8 ",
+		"price2": "速普特惠价：￥16.9",
+		"discount":"56%"
+	},
+	{
+		"id": 19,
+		"name": "  Ourjoy 爱珍 功夫熊猫营养动能面 核桃芝麻味 200克",
+		"img": "../img/goodList/4.jpg",
+		"price1": "￥19.9 ",
+		"price2": "速普特惠价：￥9.9",
+		"discount":"77%"
+	}]
+}

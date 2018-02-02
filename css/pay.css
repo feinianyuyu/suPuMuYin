@@ -1,0 +1,232 @@
+/*提示框*/
+.write_order_tip{
+	font-size: 14px;
+	font-weight: bold;
+	margin-left: 12px;
+	line-height: 24px;
+}
+/*地址栏盒子*/
+.address_box{
+	margin-top: 10px;
+	width: 1200px;
+	height: 205px;
+	padding-bottom: 20px;
+	background: #FFFFFF;
+}
+.cart_d_cfbox {
+	padding-bottom: 20px;
+	border-bottom: 1px solid #f3f3f3;
+}
+.cart_d_cftbox {
+	padding: 5px 0;
+    margin-top: 10px;
+}
+.cart_d_cft {
+	font-size: 14px;
+	font-weight: bold;
+	margin: 0 10px 0 20px;
+}
+.cart_d_cflabel {
+	width: 105px;
+	margin-right: 15px;
+	white-space: nowrap;
+	text-align: right;
+}
+.cart_d_cfinfo,
+.cart_d_fixinfo,
+.cart_d_svinfo {
+	padding-left: 37px;
+	line-height: 28px;
+}
+.cart_d_cfinfo{
+	padding-left: 20px;
+}
+.cart_d_cfinfo input[type=text],
+.cart_d_svinfo input[type=text],
+.cart_d_fcodebox input[type=text],
+.cart_d_uplus input[type=text] {
+	width: 200px;
+	padding: 2px 4px;
+	position: relative;
+	top: 2px;
+	font-weight: bold;
+	color: #000000;
+	height: 17px;
+	line-height: 17px;
+	float: left;
+}
+.cart_d_cfinfo.ticket {
+	padding-left: 20px;
+}
+.cart_d_cfinfo label,
+.cart_d_fcodebox label.fcode,
+.cart_d_uplus label {
+	float: left;
+	margin-right: 15px;
+	line-height: 28px;
+}
+.cart_d_fixinfo label {
+	display: block;
+}
+.cart_d_fixinfo label:hover {
+	background-color: #FFF7ED;
+}
+.cart_d_fixbox {
+	border: 3px solid #e5004b;
+	display: none;
+	padding-bottom: 20px;
+	margin-bottom: -20px;
+}
+.cart_d_fixinfo .name {
+	float: left;
+	font-weight: bold;
+	max-width: 120px;
+	white-space: nowrap;
+}
+.cart_d_fixbox .mrg {
+	float: left;
+	margin: 0 10px;
+}
+/*支付方式*/
+.pay_way{
+    display: inline-block;
+    line-height: 12px;
+    padding: 10px 15px;
+    border: 1px solid #dddddd;
+    margin-right: 10px;
+	cursor: pointer;
+}
+.pay_way.on{
+    border: 2px solid #ff9900;
+    position: relative;
+}
+.pay_way.on i{
+    display: block;
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    background-position: -100px -344px!important;
+    bottom: 0;
+    right: 0;
+}
+.btn_connect{
+    width: 16px;
+    height: 20px;
+    float: left;
+    margin-left: 15px;
+    display: inline-block;
+    background-position: -120px -612px;
+    cursor: pointer;
+}
+.tip{
+	border: none;
+	padding:5px 0;
+	color:#777;
+	height:36px;
+}
+.cart_ku{
+	width: 430px;
+}
+.cart_d_item1{
+	width: 125px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    text-align:center;
+    vertical-align: middle;
+    display: inline-block;
+}
+.goods_ul{
+	background: #fff;
+}
+.goods_ul li{
+	padding-top: 15px;
+	height: 95px;
+
+}
+.good_num span{
+	margin-left: 60px;
+}
+.mrg{
+	font-size: 12px;
+	font-weight: 600;
+	line-height: 24px;
+	margin-right: 20px;
+	float: right;
+}
+.total_container{
+	margin-top: 10px;
+}
+.red{
+	font-size: 12px;
+	font-weight: 600;
+	line-height: 24px;
+	color: #E5004A;
+
+}
+.youHuiQuan{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	height: 137px;
+	background: #fff
+}
+.span_tip{
+	font-size: 14px;
+    font-weight: bold;
+    margin: 10px 10px 0 20px;
+    padding-top: 10px;
+    display: block;
+}
+.use_quan{
+	margin-top: 20px;
+}
+#txtRemark{
+	width: 500px; 
+	height: 150px; 
+	margin-top: 0px; 
+	margin-bottom: 0px;
+}
+.mark_box{
+	background:#fff;
+	margin-top:10px;
+	padding:5px 0;
+}
+.mark{
+	margin: 5px 12px 5px 20px;
+}
+.detail{
+	font-size: 14px;
+	font-weight: bold;
+	color: #000;
+	background: #fff;
+	line-height: 34px;
+}
+.detail .red_color{
+	color: #e5004b;
+}
+.flr{
+	float: right;
+}
+.good_all{
+	width: 105px;
+}
+.good_all_first{
+	margin-right: 90px;
+}
+.cart_d_fbox.subbox {
+    padding: 4px 4px 4px 12px;
+    line-height: 32px;
+    margin: 0;border-top: none;
+    background: #FFFFFF;
+    margin-top: 10px;
+    font-size: 18px;
+    color:#000;
+}
+/*应付价格*/
+.should_pay{
+	margin-right: 30px;
+	font-weight: bold;
+}
+#main .money{
+	color: #e5004b;
+}

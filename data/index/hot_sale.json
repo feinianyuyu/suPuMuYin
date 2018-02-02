@@ -1,0 +1,37 @@
+{
+	"g0": {
+		"id": 0,
+		"name": " 乐天 韩国白加黑巧克力棒32g",
+		"img": "../img/index/hot_sale1.jpg",
+		"price1": "￥6 ",
+		"price2": "￥9"
+	},
+	"g1": {
+		"id": 1,
+		"name": " 方广 蛋黄胡萝卜营养200g",
+		"img": "../img/index/hot_sale2.jpg",
+		"price1": "￥28 ",
+		"price2": "￥9"
+	},
+	"g2": {
+		"id": 2,
+		"name": " 百乐麦 金装麦胚个月240g",
+		"img": "../img/index/hot_sale3.jpg",
+		"price1": "￥26.8 ",
+		"price2": "￥16.9"
+	},
+	"g3": {
+		"id": 3,
+		"name": "  Ourjoy 爱珍 功夫动200克",
+		"img": "../img/index/hot_sale4.jpg",
+		"price1": "￥19.9 ",
+		"price2": "￥9.9"	
+	},
+	"g4": {
+		"id": 4,
+		"name": " 日康 母乳实感宽口240ml",
+		"img": "../img/index/hot_sale5.jpg",
+		"price1": "￥59",
+		"price2": "￥29.9"
+	}
+}

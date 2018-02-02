@@ -1,0 +1,32 @@
+{
+	"g0":{	
+		"p1":"澳佳宝奶粉",
+		"p2":"5大科技宝宝更喜欢",
+		"img":"../img/index/stairs2_box1.jpg"
+	},
+	"g1":{	
+		"p1":"A2",
+		"p2":"尖货好品质",
+		"img":"../img/index/stairs2_box2.jpg"
+	},
+	"g2":{	
+		"p1":"惠氏",
+		"p2":"百年品质值得信赖",
+		"img":"../img/index/stairs2_box3.jpg"
+	},
+	"g3":{	
+		"p1":"高氏",
+		"p2":"敲定挑食宝宝",
+		"img":"../img/index/stairs2_box4.jpg"
+	},
+	"g4":{	
+		"p1":"高培",
+		"p2":"呵护宝宝健康成长",
+		"img":"../img/index/stairs2_box5.jpg"
+	},
+	"g5":{	
+		"p1":"牛栏辅食",
+		"p2":"幸福从这里开始",
+		"img":"../img/index/stairs2_box6.jpg"
+	}
+}

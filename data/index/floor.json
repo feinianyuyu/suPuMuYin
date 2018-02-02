@@ -1,0 +1,27 @@
+{
+	"g0": {
+		"id": 0,
+		"name": "妈妈专区",
+		"img": "../img/index/floor1.png"
+	},
+	"g1": {
+		"id": 1,
+		"name": " 奶粉辅食",
+		"img": "../img/index/floor2.png"
+	},
+	"g2": {
+		"id": 2,
+		"name": "用品尿裤",
+		"img": "../img/index/floor3.png"
+	},
+	"g3": {
+		"id": 3,
+		"name": "玩具服饰",
+		"img": "../img/index/floor4.png"
+	},
+	"g4": {
+		"id": 4,
+		"name": "美食日用",
+		"img": "../img/index/floor5.png"
+	}
+}

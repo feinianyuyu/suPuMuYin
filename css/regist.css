@@ -1,0 +1,366 @@
+*{margin:0 auto;}
+div.login_account_total i, div.login_password_total i {
+	background: url(../img/regist/sprit.png) no-repeat;
+}
+/*logo*/
+.login_midlle {
+    padding: 20px 0px;
+    background: #f2f2f2;
+    margin:0 auto;
+}
+
+.login_content{
+    width: 100%;
+    background-color: #e5004b;
+    background: url("../img/regist/login.jpg") center center;
+    overflow: hidden;
+    height: 480px;
+    border-bottom: 1px solid #dbdbdb;
+    position: relative;
+    margin:0 auto;
+}
+div.login_character {
+    width: 140px;
+    height: 53px;
+    padding-left: 30px;
+    margin-top: 10px;
+    margin-left: 35px;
+    font-size:28px ;
+    line-height: 50px;
+    color: #333333;
+    border-left: 1px solid #dbdbdb;
+}
+div.login_nocharacter{
+    width: 140px;
+    height: 53px;
+    padding-left: 30px;
+    margin-top: 10px;
+    margin-left: 35px;
+    font-size:28px ;
+    line-height: 50px;
+    color: #333333;
+    border-left: 1px solid #dbdbdb;
+}
+/*各种输入框*/
+
+
+
+div.login_advertise {
+	width: 533px;
+	height: 387px;
+	text-align: center;
+}
+div.login {
+    margin-right: 45px;
+    width: 340px;
+    height: 390px;
+    background: #ffffff;
+    /*padding: 25px 21px 18px 23px;*/
+    border: 1px solid #dbdbdb;
+}
+div.error_tips{
+    margin: 0 22px 0 22px ;
+    color: #e5004b;
+    line-height: 12px;
+    display: none;
+}
+div.error_tips i{
+    width: 22px;
+    height: 20px;
+    display: inline-block;
+    background: url("../img/regist/sprit.png") no-repeat;
+    background-position: 0px  -240px;
+    position: relative;
+    top: 2px;
+    left: 0;
+}
+
+div.login_header{
+    margin: 25px 22px 5px 22px;
+    background: #FFFFFF;
+}
+div.login_header span {
+    font-size: 18px;
+    color: #686565;
+    font-weight: 700;
+}
+div.login_header b{
+    color: #999999;
+}
+b.login_gray {
+    color: #777777;
+    font-size: 12px;
+    font-weight: normal;
+    float: right;
+}
+b.login_gray a {
+	/*padding-left: 8px;*/
+	color:#137ce9;
+}
+div.login_account_total{
+    margin: 10px 22px 0 22px ;
+    position: relative;
+}
+
+div.input_icon{
+    padding: 8px 20px;
+    height: 22px;
+    font-size: 14px;
+    font-weight: 400;
+    display: inline-block;
+    line-height: 1;
+    color: #555;
+    text-align: center;
+    background-color: #f9f9f9;
+    white-space: nowrap;
+    vertical-align: middle;
+    float: left;
+    position: absolute;
+    left: 2px;
+    top: 2px;
+}
+/*输入框内精灵图*/
+.account_icon{
+    background: url("../img/regist/sprit.png") no-repeat;
+    background-position: 14px -113px;
+}
+.code_icon{
+    background: url("../img/regist/sprit.png") no-repeat;
+    background-position: 14px -293px;
+}
+.password_icon{
+    background: url("../img/regist/sprit.png") no-repeat;
+    background-position: 14px -169px;
+}
+.img_code_icon{
+    background: url("../img/regist/sprit.png") no-repeat;
+    background-position: 14px -397px;
+}
+.randomcode_icon{
+    background: url("../img/regist/sprit.png") no-repeat;
+    background-position: 14px -399px;
+}
+.img_code_icon_error{
+    background: url("../img/regist/sprit.png") no-repeat;
+    background-position: 14px -450px;
+}
+.account_icon_error{
+    background-image: url("../img/regist/sprit.png");
+    background-position: 14px 10px!important;
+    border-color: #e5004b!important;
+}
+.password_icon_error{
+    background: url("../img/regist/sprit.png") no-repeat!important;
+    background-position: 14px -47px!important;
+    border-color: #e5004b!important;
+}
+.code_icon_error{
+    background: url("../img/regist/sprit.png") no-repeat!important;
+    background-position: 14px -344px!important;
+    border-color: #e5004b!important;
+}
+.randomcode_icon_error{
+    background: url("../img/regist/sprit.png") no-repeat!important;
+    background-position: 14px -452px!important;
+    border-color: #e2004d!important;
+}
+.input_error{
+    border-color: #e5004b!important;
+}
+div.login_password_total {
+    margin: 10px 22px 0 22px ;
+    position: relative;
+}
+div.login_password_total i {
+    display: block;
+    width: 17px;
+    height: 20px;
+    background-position: -23px 0px;
+    position: relative;
+    left: 12px;
+    top: -26px;
+}
+input.login_input_size {
+    display: block;
+    width: 231px;
+    height: 40px;
+    border: 1px solid #dbdbdb;
+    background: #f9f9f9;
+    padding: 0 20px 0 43px;
+    line-height: 40px;
+    float: left;
+    font-size: 13px;
+    color: #666;
+}
+label.login_font {
+    color: #9F9F9F;
+}
+div.login_checkbox_all {
+    margin: 10px 24px 10px 24px ;
+    line-height: 22px;
+    height:22px ;
+}
+span.login_checkbox {
+    color: #777777;
+}
+span.auto_login {
+    margin-left: 30px;
+}
+.login_submit {
+    display: block;
+    width: 295px;
+    background: #e5004b;
+    border: none;
+    cursor: pointer;
+    margin: 0 22px 0 22px ;
+}
+.login_submit span{
+    color: #FFF;
+    line-height: 36px;
+    font-size: 20px;
+}
+.login_forget {
+    /*padding-top: 11px;*/
+    float: right;
+    /*margin-top: 16px;*/
+}
+a.login_forget_pas {
+    color: #9F9F9F;
+    font-weight: normal;
+}
+
+div.login_relat_account {
+    /*	margin-top: 98px;*/
+    margin: 15px 22px 15px 22px ;
+}
+em.account_login {
+    font-style: normal;
+    color: #777777;
+}
+em.account_login  a{
+    display: block;
+    float: left;
+    margin-left: 10px;
+    line-height: 30px;
+    color: #137ce9;
+}
+a.alipay {
+    color: #009AFF;
+}
+.yzm_box{
+    vertical-align:middle;
+     cursor: pointer;
+     margin-left: 200px;
+     width: 60px;
+     height:40px;
+     background:#777777;
+     line-height: 40px;
+     color: #fff;
+     padding-left: 20px
+}
+/*正则*/
+
+.reg{
+    background: #fff;
+    width: 340px;
+    height: 390px;
+    position: absolute;
+    top: 46px;
+    left: 50%;
+    margin-left: 200px;
+    border: 1px solid #dbdbdb;
+    display: none;
+}
+.deal{
+    margin: 10px 30px 10px 30px ;
+    line-height: 12px;
+}
+.code_input_size{
+    display: block;
+    width: 112px;
+    height: 40px;
+    border: 1px solid #FFFFFF;
+    padding: 0 20px 0 43px;
+    float: left;
+    color: #666;
+    line-height: 40px;
+    background: #f9f9f9;
+}
+.code_total{
+    margin: 10px 22px 0 22px;
+    position: relative;
+}
+.reg_submit{
+    display: block;
+    width: 295px;
+    background: #e5004b;
+    border: none;
+    margin: 0 22px 0 22px ;
+    cursor: pointer;
+}
+.reg_submit1{
+    display: block;
+    width: 295px;
+    background: rgb(204, 204, 204);
+    border: none;
+    margin: 0 22px 0 22px ;
+    cursor: pointer;
+}
+.reg_submit span{
+    color: #FFF;
+    line-height: 36px;
+    font-size: 20px;
+}
+.btn_style{
+    display: block;
+    width: 275px;
+    height: 36px;
+    background: #e5004b;
+    margin: 30px 22px 30px 22px;
+}
+.btn_style span{
+    color: #FFF;
+    line-height: 36px;
+    font-size: 20px;
+}
+.btn_getcode{
+    padding: 12px 22px;
+    border: none;
+    background-color: #e5004b;
+    color: #ffffff;
+    cursor: pointer;
+}
+.fancybox-skin{
+    background: #fff!important;
+}
+div.resetPwd {
+    margin-right: 45px;
+    width: 340px;
+    height: 390px;
+    background: #ffffff;
+    /*padding: 25px 21px 18px 23px;*/
+    border: 1px solid #dbdbdb;
+}
+input.resetPwd_input_size {
+    display: block;
+    width: 231px;
+    height: 40px;
+    border: 1px solid #FFFFFF;
+    background: #f9f9f9;
+    padding: 0 20px 0 43px;
+    line-height: 40px;
+    float: left;
+    font-size: 13px;
+    color: #000;
+}
+.login_error_section
+{
+    height: 22px;
+    line-height: 22px;
+}
+.supuy_info_box {
+    background: #fff
+}
+.login_coryright{
+    background: #fff
+}

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>列表页</title>
+    <!-- 重置样式 -->
+    <link rel="stylesheet" href="../css/common/reset.css" />
+    <!-- 公用的样式 -->
+    <link rel="stylesheet" href="../css/common/common.css" />
+	<!-- 自己的样式 -->
+    <link rel="stylesheet" href="../css/goodList.css">
+    <link href="../img/index/favicon.ico" type="image/x-icon" rel="icon">
+</head>
+<body>
+	<!-- 这里是头部 -->
+	<div id="header"></div>
+	<div id="banner">
+	</div>
+	<div id="main">
+		<div class="good">
+			<ul>
+                <!-- <li>
+                	<a>
+	                	<img src="../img/goodList/1.jpg">
+	                	<div class="good_name">
+	                		<span>打了卡建档立卡我</span>
+	                	</div>
+	                	<div class="sheng">
+	                		<img src="../img/goodList/sheng.png">
+	                		<div class="spread">
+	                			<p>省<p>
+	                			<span>77%</span>
+	                		</div>
+	                	</div>
+	                	<div class="good_price">
+	                		<s>￥21</s><br/>
+	                		<span>￥18</span>
+	                	</div>
+	                </a>
+                </li> -->
+
+			</ul>
+		</div>
+		<div class="pagination-pages fr">
+			<span class="page-first">首页</span>
+			<span class="page-prev ">上一页</span>
+			<span class=" page-wrap current pageNum">1</span>
+			<span class="page-wrap  pageNum" >2</span>
+			<span class="page-wrap pageNum" >3</span>
+			<span class="page-next">下一页</span>
+			<span class="page-last">尾页</span>
+		</div>
+		<div class="clear"></div>
+	</div>
+	
+	<!-- 这里是尾部 -->
+	<div id="footer"></div>
+	
+	<script src="../lib/jquery-1.12.3.js"></script>
+	<script src="../lib/jquery.cookie.js"></script>
+	<script src="../lib/cookie.js"></script>
+    <script src="../js/common/common.js"></script>
+	<script src="../js/goodList.js"></script>
+	<script>
+		loadHtml("common/header.html","#header")
+		loadHtml("common/footer.html","#footer")
+	</script>
+</body>
+</html>

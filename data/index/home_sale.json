@@ -1,0 +1,30 @@
+{
+	"g0": {
+		"id": 0,
+		"name": " 白加黑巧克力棒",
+		"detal":"促进宝宝牙齿发育",
+		"img_big": "../img/index/life_sale1.jpg",
+		"img_small":"../img/index/home_sale1.jpg"
+	},
+	"g1": {
+		"id": 1,
+		"name": " 金装麦胚个月",
+		"detal":"健康生活调理",
+		"img_big": "../img/index/life_sale2.jpg",
+		"img_small":"../img/index/home_sale2.jpg"
+	},
+	"g2": {
+		"id": 2,
+		"name": " 小熊饼干",
+		"detal":"促进宝宝大脑发育",
+		"img_big": "../img/index/life_sale3.jpg",
+		"img_small":"../img/index/home_sale3.jpg"
+	},
+	"g3": {
+		"id": 3,
+		"name": " 澳佳宝护理",
+		"detal":"真宗护理级产品",
+		"img_big": "../img/index/life_sale4.jpg",
+		"img_small":"../img/index/home_sale4.jpg"
+	}
+}

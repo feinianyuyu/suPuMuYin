@@ -1,0 +1,44 @@
+{
+	"g0": {
+		"id": 0,
+		"name": " Aptamil爱他美 澳洲奶粉4段2岁以上900g2罐",
+		"price":"￥368",
+		"img": "../img/goodDetail/hot_good1.jpg"
+	},
+	"g1": {
+		"id": 1,
+		"name": " Abbott雅培 爱尔兰菁智纯净3段奶粉900g",
+		"price":"￥269",
+		"img": "../img/goodDetail/hot_good2.jpg"
+	},
+	"g2": {
+		"id": 2,
+		"name": " Abbott雅培 爱尔兰菁智纯净3段奶粉900g",
+		"price":"￥269",
+		"img": "../img/goodDetail/hot_good3.jpg"
+	},
+	"g3": {
+		"id": 3,
+		"name": " GOO.N大王 日本原装进口天使系列纸尿裤S58片",
+		"price":"￥158",
+		"img": "../img/goodDetail/hot_good4.jpg"
+	},
+	"g4": {
+		"id": 4,
+		"name": " MeadJohnson美赞臣 荷兰安婴宝奶粉2段850g",
+		"price":"￥270",
+		"img": "../img/goodDetail/hot_good5.jpg"
+	},
+	"g5": {
+		"id": 5,
+		"name": " Abbott雅培 爱尔兰菁智纯净3段奶粉900g",
+		"price":"￥269",
+		"img": "../img/goodDetail/hot_good6.jpg"
+	},
+	"g6": {
+		"id": 6,
+		"name": " Heinz亨氏 乐维滋果汁泥苹果草莓120g",
+		"price":"￥15",
+		"img": "../img/goodDetail/hot_good7.jpg"
+	}
+}

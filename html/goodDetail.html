@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+	
+    <meta charset="UTF-8">
+    <title>详情页</title>
+    <!-- 重置样式 -->
+    <link rel="stylesheet" href="../css/common/reset.css" />
+    <!-- 公用的样式 -->
+    <link rel="stylesheet" href="../css/common/common.css"/>
+	<!-- 自己的样式 -->
+    <link rel="stylesheet" href="../css/goodDetail.css">
+    <!--网页ico-->
+    <link href="../img/index/favicon.ico" type="image/x-icon" rel="icon">
+</head>
+<body>
+	<!--这里是头部-->
+	<div id="header"></div>
+	<!--主体-->
+	<div id="main">
+		<div class="warp_1200">
+			<div class="myposition">
+   				<a href="index.html">首页</a> &gt; 
+   				<a href="goodList.html">宝宝洗浴</a> &gt; Bübchen贝臣 德国男童运动型无泪儿童洗发沐浴露230ml
+			</div>
+			<div class="main_info">
+				<div class="glass">
+					<div class="glass_big">
+						 <img src="" class="middle-img">
+						 <div class="image-zoom"></div>
+						 
+					</div>
+					<div class="big-img-box">
+						<img src="" class="big-img">
+					</div>
+					<div class="glass_small">
+					    <a class="prev"></a>
+					    <div class="items">
+					        <ul class="small-img-box">
+	                            <li>
+			                        <a href="##"><img src="" ></a>
+			                    </li>
+			                    <li>
+			                        <a href="##"><img src="" ></a>
+			                    </li>           
+			                </ul>
+					    </div>
+					    <a href="##" class="next"></a>
+
+					    <div class="clear"></div>
+					</div>									
+					<div class="glass_share">
+						
+				        <span class="fl" style="line-height: 30px; margin-right:6px ;">分享</span>
+				        <div >
+				            <a href="##" class="bds_weixin"></a>
+				            <a href="##" class="bds_tsina"></a>
+				            <a href="##" class="bds_qzone"></a>
+				            <a href="##" class="bds_sqq"></a>
+				            <a href="##" class="bds_mshare" ></a>
+				        </div>
+					</div>
+				</div>
+
+				<div class="detail">
+					<div class="goods_from">
+				        <div class="from">
+				            <img src="../img/goodDetail/country.jpg"  style="width:42px;height:42px;padding-right: 6px;">
+				            德国直供 &nbsp; 杭州保税区一号仓发货
+				        </div>
+				    </div>
+					<div class="good_d_des ellipsis mrg15">
+				        <span class="goods_ac">
+                            <span style="color: #e5004b;">199选6件</span><span style="color: #ccc;margin: 0 5px;"> | </span>                        
+                        </span>
+					    <span class="good_name"><span>    
+					    <input type="hidden" id="g_Code" value="1297010030">
+					    <input type="hidden" id="g_id" value="22802">
+					</div>
+					<p class="goods_tips">
+				       Bübchen贝臣是德国知名婴幼儿洗护用品品牌，属于瑞士雀巢集团旗下。产品富含天然成分，植物配方，温和不刺激，婴幼儿都可以放心使用，成人也可以用！全面的质量控制贯穿于整个生产过程中，直到产品投放于市场。贝臣视产品品质为生命：这一宗旨贯彻于原料选择和整个生产周期内。
+				   	</p>
+					<div class="good_d_pricebox">
+	                    <div class="good_d_label ellipsis fl">
+			                速普价格
+			            </div>
+			            <div class="good_d_pricenew fl" id="g_price">
+			                <span style="font-size: 18px;">￥</span>            
+			            </div>        
+			            <div class="clear"></div>
+			        	<div class="good_d_label ellipsis fl">
+			            	市场价
+			            	<input type="hidden" id="pri_market" value="98">
+			        	</div>
+			        	<div class="good_d_priceold fl" id="su_price">
+			            	<span style="text-decoration: line-through;">￥98</span>
+			                            （为您节省：56 元）            
+			        	</div>
+					    <div class="clear"></div>
+			            <div class="good_d_label ellipsis fl" id="is_group_show">
+			                促销
+			            </div>
+			            <div class="detail_ac_list fl">
+			                <div>
+		                        <span>超值任选</span>
+		                        双十二全球购199选6件                                                
+		                    </div>
+		                    <div>
+		                        <span>超值任选</span>
+		                        105元任选3件 165元任选5件                                               
+		                    </div>
+		                    <div>
+		                        <span>满额立减</span>
+		                        全球购双12喂养洗护满199立减20                                     
+		                    </div>            
+		                </div>
+			            <div class="clear"></div>
+			        </div>
+
+					<div class="d_pd">
+				        <div class="good_d_label ellipsis fl">税费</div>
+				        <div class="fl">
+				            本商品适用税率为11.9% 
+				            <div class="clear"></div>
+				        </div>
+				        <div class="clear"></div>
+				    </div><!--地址选择-->
+					<div class="d_pd">
+					    <div class="good_d_label ellipsis fl">运费
+					    </div>
+					    <div style="z-index: 110;" class="mod_selectbox clearfix">
+					        <div class="fl" id="sellerinfo" sellerid="203" style="line-height: 25px;margin-right: 10px;">至
+					        	<select>
+						        	<option>请选择</option>
+						        	<option>四川</option>
+						        	<option>重庆</option>
+						        	<option>贵州</option>
+						        	<option>...</option>
+						        </select>
+					        </div>
+					        <div class="youfree fl" id="youfree">
+					        	<span class="free_tit">订单实付满99元免运费</span>
+					        	<div class="free_con" style="display: none;">订单实付满99元免运费，不足金额订单会根据速普为您选择的快递收费标准收取运费
+					        	</div>
+					        </div>
+					        <div class="yuji fl">
+					            <span>&nbsp;&nbsp;&nbsp;&nbsp;预计正常3-5个工作日送达</span>
+					        </div>
+					    </div>
+					    <div class="clear"></div>
+					</div>
+					<div class="d_pd">
+		                <div class="good_d_label ellipsis fl">
+		                    系列                
+		                </div>
+		                <div class="good_d_chtype fl">
+		                    <ul>
+		                        <li title="男童运动型" class="selected">
+		                        	<a href="##" style="line-height: 30px;" title="男童运动型">
+	      	                            男童运动型                                          
+	      	                        </a>
+		                        </li>
+		                        <li title="覆盆子山莓">
+		                        	<a href="##" style="line-height: 30px;" title="覆盆子山莓">
+		                        		覆盆子山莓                                              
+		                        	</a>
+		                        </li>                    
+		                    </ul>
+		                </div>
+		                <div class="clear"></div>
+		            </div><!--单品组合-->
+
+					<div class="d_pd">
+					    <div class="good_d_label sumbox ellipsis fl">
+					        购买数量     
+					    </div>
+					    
+			            <div class="good_d_sumbox fl">
+				            <input type="button" class="good_d_downbtn fl" value="-"></input>
+				            <input type="text"  value="1" class="good_d_sum ellipsis fl">
+				            <input type="button" class="good_d_upbtn fl" value="+"></input>
+				            <div class="fl">
+				                <span>赠送 </span>
+				                <b id="points" value="25" style="color:#ff8a00 ;">25</b> 积分
+			           		</div>
+			        	</div>    
+			        	<div class="clear"></div>
+					</div>
+					<div style="padding: 20px 0;">
+					    <input type="hidden" id="g_status" value="1">
+					    <div class="is_group fl">
+	                        <input type="hidden" name="promotion" value="" id="promotion">
+	                        <a href="##" class="good_d_addcart fl addcar">加入购物车</a></input> 
+	                    </div>
+					    <a href="shopCar.html" class="good_d_appbuy fl" ><i></i>查看购物车
+					    </a>
+					    <div class="fl" style="line-height: 42px">
+		                    <a href="##" class="good_d_addfav" ><i></i>收藏商品
+		                    </a>    
+		                </div>
+					    <div style="clear: both"></div>
+					</div>
+				</div>
+			</div>
+			<div class="clear"></div>	
+			<div class="main_center">
+				<div class="main_left">
+			    	<div class="category">
+			        	<div class="category_name">
+			        		<span>相关分类</span>
+			       		</div>
+			        	<div class="category_list2">
+				            <ul>
+				                <li><a href="##">宝宝洗浴</a></li>
+				                <li><a href="##">宝宝护肤</a></li>
+				                <li><a href="##">奶瓶清洗</a></li>
+				                <li><a href="##">洗衣液/皂</a></li>
+				                <li><a href="##">理发器</a></li>
+				                <li><a href="##">驱蚊防蚊</a></li>
+				                <li><a href="##">坐便器</a></li>
+				                <li><a href="##">日常护理</a></li>            
+				            </ul>
+			            	<div class="clear"></div>
+			        	</div>
+			    	</div>
+			    
+					<div class="category">
+						
+				        <div class="category_name">
+				        	<span>热门商品</span>
+				        </div>
+				        <div class="category_list">
+				            <ul>   
+				            </ul>
+				           
+			        	</div>
+			    	</div>
+				</div>
+				<div class="main_right">
+					<div class="activity">
+					    <ul class="tab_trigger">
+					        <li data-index="0" class="item active">热门活动</li>
+					    </ul>
+					    <div class="clear"></div>
+					    <div class="tab_content">
+					        <div class="tab_content_item tab_content_selected">
+					            <a href="##" class="good_hotac fl">
+				                    <img src="../img/goodDetail/right1.jpg" width="100%">
+				                </a>
+				                <a href="##" class="good_hotac fl">
+				                    <img src="../img/goodDetail/right2.jpg" width="100%">
+				                </a>
+				                <a href="##" class="good_hotac fl">
+				                    <img src="../img/goodDetail/right3.jpg" width="100%">
+				                </a>            
+				                <div class="clear"></div>
+					        </div>
+					    </div>
+
+					</div>
+					<div class="parameter">
+						<ul class="tab_trigger">
+					        <li data-index="0" class="item active">商品详情</li>
+					        <li data-index="1" class="item">商品评论<span style="color: #e5004b;" id="SPANGoodsCommentTitle">(8)</span></li>
+					        <li data-index="2" class="item">常见问题</li>
+					        <div class="fr">
+					            <!--商品状态判断-->
+	                            <!--如果有活动判断活动库存-->
+                                <!--判断是否支持一键购物-->
+                                <input type="hidden" name="promotion" value="" id="promotion">
+	                            <input type="hidden" name="cardId" value="1297010030" id="cardId">
+	                            <a href="javascript:void(0)" class="good_d_addcart2 fl addcar" >加入购物车</a>        
+	                        </div>
+					    </ul>
+					    <div class="clear"></div>
+					    <!-- 选项卡 -->
+					    <div class="tab_content">
+					        <div  class="tab_content_item1 tab_content_selected" style="padding-top: 0px;">
+					            <div class="good_d_databox">
+					                <ul>
+					                    <li title="Bübchen贝臣 德国男童运动型无泪儿童洗发沐浴露230ml">
+					                        <div class="good_d_label ellipsis fl">
+					                            商品名称:
+					                        </div>
+					                        <div class="good_d_data ellipsis fl">
+					                            Bübchen贝臣 德国男童运动型无泪儿童洗发沐浴露230ml                   
+					                        </div>
+					                    </li>
+					                    <li title="产地">
+				                            <div class="good_d_label ellipsis fl">
+				                                产地：
+				                            </div>
+				                            <div class="good_d_data ellipsis fl">
+				                                        德国                                    
+			                                </div>                        
+		                                </li>
+		                                <li title="规格">
+				                            <div class="good_d_label ellipsis fl">
+				                                规格：
+				                            </div>
+				                            <div class="good_d_data ellipsis fl">
+				                                        230ml                                    
+				                                    </div> 
+			                                </li>
+			                                <li title="系列">
+					                            <div class="good_d_label ellipsis fl">
+					                                系列：
+					                            </div>
+					                            <div class="good_d_data ellipsis fl">
+					                                        男童运动型                                    
+			                                    </div>                        
+		                                    </li>                
+		                                </ul>
+					                <div class="clear"></div>
+					            </div>
+					            <div class="good_d_detailbox">
+					                  
+					            </div>
+					        </div>
+					        <div class="tab_content_item1" style="padding-top: 0px;">
+					            <!--评价框-->
+					            <div class="good_d_evalbox">
+					                <div class="good_d_percentbox">
+					                    <div class="per">
+					                        <div class="fl allper">100.0<small>%</small>
+					                        </div>
+					                        <div class="fr">
+					                            <div style="font-size: 14px; line-height: 21px"><strong>推荐购买</strong>
+					                            </div>
+					                            <div class="cor999"><span id="SPANCommentsAccountCount">8</span>人参与评论</div>
+					                        </div>
+					                        <div class="clear"></div>
+					                    </div>
+					                    <div class="percent">
+					                        <div><span class="text">好评：</span><span class="perpercent"><span style="width:100.0%"></span></span><span>100.0%</span></div>
+					                        <div><span class="text">中评：</span><span class="perpercent"><span style="width:0.0%"></span></span><span>0.0%</span></div>
+					                        <div><span class="text">差评：</span><span class="perpercent"><span style="width:0.0%"></span></span><span>0.0%</span></div>
+					                    </div>
+					                    <!--<div class="buyed"><span>我已购买此商品</span><a href="#" class="btn good_d_combtn">我要评价</a></div>-->
+					                </div>
+					                <div class="good_d_evalright">
+					                    <div class="righttitle">
+					                        <strong>写购物评价，送双倍积分！</strong>
+					                    </div>
+					                    <div class="perinfo">
+					                        <span style="color:#000;">积分用途：</span>
+					                    </div>
+					                    <div class="perinfo">
+					                        <span style="color:#999;">积分兑换</span><span style="color:#900;">商品；</span>
+					                    </div>
+					                    <div class="perinfo">
+					                        <span style="color:#999;">积分兑换</span><span style="color:#900;">摄影、亲子、产妇医院等线下商家的产品或服务。</span>
+					                    </div>
+
+					                    <div class="linkseach">
+					                        <a href="/helper/helpintegral.html" target="_blank" style="color:#4c81b9">查看其它积分规则 &gt;</a>
+					                    </div>
+					                </div>
+					            </div>
+					            <div class="clear"></div>
+					            <!--评价列表-->
+					            <div class="mrg15">
+					                <div class="good_d_evalt"><strong>全部评价</strong></div>
+					                <div class="good_d_evalcon" id="DIVGoodsComment"><table id="ULGoodsComments" comment_total_count="8"><tbody><tr>
+                                        <td class="record_ltd">
+                                            <div class="record_listl">
+                                                <p class="record_con">这几天都是用这款洗发沐浴露二合一给我儿子洗，德国人实在，做的产品也是杠杠的。很好值的拥有。以后还会光顾的。谢谢速普带给我们带来这么好的产品</p>
+                                                <div class="photos-record"></div>
+                                                <div class="show_record_img"> </div>
+                                                <p><span>2016-09-10 10:21:41</span></p>
+                                            </div></td>
+                                        <td class="record_listr">
+                                                <p><span class="record_user_2">BANANA先生</span></p>                                                
+                                        </td>
+                                   </tr><tr>
+                                        <td class="record_ltd">
+                                            <div class="record_listl">
+                                                <p class="record_con">默认好评</p>
+                                                <div class="photos-record"></div>
+                                                <div class="show_record_img"><img src=""> </div>
+                                                <p><span>2016-11-10 03:00:10</span></p>
+                                            </div></td>
+                                        <td class="record_listr">
+                                                <p><span class="record_user_2">185*****680</span></p>                                                
+                                        </td>
+                                   </tr><tr>
+                                        <td class="record_ltd">
+                                            <div class="record_listl">
+                                                <p class="record_con">默认好评</p>
+                                                <div class="photos-record"></div>
+                                                <div class="show_record_img"><img src=""> </div>
+                                                <p><span>2016-09-09 03:00:39</span></p>
+                                            </div></td>
+                                        <td class="record_listr">
+                                                <p><span class="record_user_3">supumall1453789903KVV</span></p>                                                
+                                        </td>
+                                   </tr><tr>
+                                        <td class="record_ltd">
+                                            <div class="record_listl">
+                                                <p class="record_con">默认好评</p>
+                                                <div class="photos-record"></div>
+                                                <div class="show_record_img"><img src=""> </div>
+                                                <p><span>2016-09-05 03:00:39</span></p>
+                                            </div></td>
+                                        <td class="record_listr">
+                                                <p><span class="record_user_3">yuxuxu</span></p>                                                
+                                        </td>
+                                   </tr><tr>
+                                        <td class="record_ltd">
+                                            <div class="record_listl">
+                                                <p class="record_con">孩子挺喜欢</p>
+                                                <div class="photos-record"></div>
+                                                <div class="show_record_img"><img src=""> </div>
+                                                <p><span>2016-08-10 17:50:09</span></p>
+                                            </div></td>
+                                        <td class="record_listr">
+                                                <p><span class="record_user_4">ltt_bbww</span></p>                                                
+                                        </td>
+                                   </tr><tr>
+                                        <td class="record_ltd">
+                                            <div class="record_listl">
+                                                <p class="record_con">默认好评</p>
+                                                <div class="photos-record"></div>
+                                                <div class="show_record_img"><img src=""> </div>
+                                                <p><span>2016-04-26 03:00:09</span></p>
+                                            </div></td>
+                                        <td class="record_listr">
+                                                <p><span class="record_user_3">sissy1225</span></p>                                                
+                                        </td>
+                                   </tr><tr>
+                                        <td class="record_ltd">
+                                            <div class="record_listl">
+                                                <p class="record_con">默认好评</p>
+                                                <div class="photos-record"></div>
+                                                <div class="show_record_img"><img src=""> </div>
+                                                <p><span>2016-04-13 03:00:08</span></p>
+                                            </div></td>
+                                        <td class="record_listr">
+                                                <p><span class="record_user_2">俏地主婆hazle</span></p>                                                
+                                        </td>
+                                   </tr><tr>
+                                        <td class="record_ltd">
+                                            <div class="record_listl">
+                                                <p class="record_con">默认好评</p>
+                                                <div class="photos-record"></div>
+                                                <div class="show_record_img"><img src=""> </div>
+                                                <p><span>2016-03-19 03:00:07</span></p>
+                                            </div></td>
+                                        <td class="record_listr">
+                                                <p><span class="record_user_3">巫蛊宝宝</span></p>                                                
+                                        </td>
+                                   </tr></tbody></table></div>
+					                <div class="clear"></div>
+					                <div class="pagination-pages fr"></div>
+					                <div class="clear"></div>
+					            </div>
+					        </div>
+					        <div class="tab_content_item1" style="padding-top: 0px;">
+					            <div class="good_d_quest">
+					                <ul>
+					                    <li>
+					                        <div><strong>1. 速普商城所售商品都是正品吗？</strong>
+					                        </div>
+					                        <div>速普母婴商城所售商品都是正品行货，可以与厂家进行验证。
+					                        </div>
+					                    </li>
+					                    <li>
+					                        <div><strong>2. 什么是到货通知？</strong>
+					                        </div>
+					                        <div>当速普母婴商城仓库某个商品无货时，会在网站商品列表页显示“到货通知”按钮。您点击此按钮，我们将记录您的需求，商品到货后，我们会第一时间通过站内信的形式通知到您。
+					                        </div>
+					                    </li>
+					                    <li>
+					                        <div><strong>3. 为什么有时候需要支付运费有时候不需要？</strong>
+					                        </div>
+					                        <div>现在速普商城针对全国大部分地区实行购物满68元包邮，云、贵、陕、甘、桂满99元包邮，海、蒙、宁、青满399元包邮，详细包邮说明参见<a style="color: #0000ff" href="#">配送服务</a>。
+					                        </div>
+					                    </li>
+					                    <li>
+					                        <div><strong>4. 什么是速普快递？</strong>
+					                        </div>
+					                        <div>速普快递是由速普母婴商城配送人员配送货物的一种送货方式。目前仅限于青岛市市南区、市北区、四方区、李沧区、崂山区（松岭路以西）及黄岛区，其他地区将陆续开通。
+					                        </div>
+					                    </li>
+					                    <li>
+					                        <div><strong>5. 下单后，我能做什么？</strong>
+					                        </div>
+					                        <div>如果是在线支付方式，请您尽快完成付款，待付款被确认后我们会立即为您发货，如果选择自提或货到付款，您可以进入“会员中心”，在“订单列表”中找到您的订单，然后可随时查看订单处理状态，做好收货或者上门自提的准备。在您成功购物后，您还可以发表商品评价，向其他用户分享商品使用心得。
+					                        </div>
+					                    </li>
+					                    <li>
+					                        <div><strong>6. 在哪进行在线支付？</strong>
+					                        </div>
+					                        <div>首先您需要进行账户登陆，在成功登陆后，点击我的订单，在订单列表中点击支付按钮进行支付。
+					                        </div>
+					                    </li>
+
+					                </ul>
+					            </div>
+					        </div>
+					    </div>
+					</div>
+				</div>
+				<div class="clear"></div>
+			</div>
+		</div>
+	</div>
+	<!-- 这里是尾部 -->
+	<div id="footer"></div>
+	<script src="../lib/jquery-1.12.3.js"></script>
+    <script src="../lib/jquery.cookie.js"></script>
+	<script src="../lib/cookie.js"></script>
+    <script src="../lib/jquery.fly.min.js"></script>
+    <script src="../lib/requestAnimationFrame.js"></script>
+    <script src="../js/common/common.js"></script>
+	<script src="../js/goodDetail.js"></script>
+	<script>
+		loadHtml("common/header.html","#header")
+		loadHtml("common/footer.html","#footer")
+	</script>
+	
+</body>
+</html>

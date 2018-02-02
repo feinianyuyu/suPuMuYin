@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>欢迎登录</title>
+    <!-- 重置样式 -->
+    <link rel="stylesheet" href="../css/common/reset.css" />
+    <!-- 公用的样式 -->
+    <link rel="stylesheet" href="../css/common/common.css" />
+
+    <link rel="stylesheet" href="../css/login.css">
+    <link href="../img/index/favicon.ico" type="image/x-icon" rel="icon">
+</head>
+<body>
+	<div class="login_midlle">
+	    <div class="wrap_1200">
+	        <div class="logo fl"> 
+	        	<a href="index.html"> 
+	        		<img src="../img/regist/logo.jpg" width="155" height="56"> 
+	       	 	</a> 
+	       	</div>
+        	<div class="login_character fl">欢迎登录</div>
+    	</div>
+    </div>
+    <div class="login_content">  
+	    <div class="wrap_1200 login_main_bg">
+	        <div class="login fr animated fadeInLeft" style="display: block;" id="login_box">
+            <div class="login_header">
+                <span>会员登录</span>
+                <b class="login_gray">没有速普账号？<a href="regist.html" id="go_reg">立即注册</a></b>
+            </div>
+            <form method="post" action="" id="LoginForm">
+                <div class="login_error_section">
+                    <div class="error_tips" id="DIVLoginMsg">
+                        <i></i><span>帐号或密码错误</span>
+                    </div>
+                </div>
+                <div class="login_account_total">
+                    <div class="input_icon account_icon"></div>
+                    <input type="text" id="account" name="username" value="" class="login_input_size" placeholder="邮箱、手机号、账号" maxlength="50">
+                </div>
+                <div class="clear">
+                </div>
+                <div class="login_password_total">
+                    <div class="input_icon password_icon">
+                    </div>
+                    <input type="password" id="password" name="userpassword" class="password login_input_size" placeholder="密码" maxlength="16">
+                    <i></i>
+                </div>
+                <div class="clear">
+                </div>
+                <div class="login_password_total DIVQapTcheSection">
+                    
+                    <div id="slider">
+                        <div class="Slider_tip">按住滑块拖动到最后边
+                        </div>
+                        <div class="bgSlider">
+                            <span class="tips">按住滑块拖动到最后边</span>
+                            <span id="label" >&nbsp;&nbsp;>></span>
+                            <span id="labelTip"><span>
+                        </div>
+                        <div class="clr">
+                        </div>
+                        <div class="TxtStatus dropError">
+                        </div>
+                        <input name="9XMkZftzKqRnVjdZC4-Ar3MyMZKT@F@u" id="9XMkZftzKqRnVjdZC4-Ar3MyMZKT@F@u" value="KBG2aBv" type="hidden" class="qapTcha_randomPass">
+                    </div>
+                    
+                </div>
+                <div class="clear">
+                </div>
+                <div class="login_checkbox_all">
+                    <span class="login_checkbox fl">
+                        <input type="checkbox" value="记住用户名" checked="checked" id="cbRememberUserName">&nbsp;记住用户名
+                    </span>
+                    <span class="login_checkbox auto_login fl">
+                        <input type="checkbox" value="自动登录" id="cbAutoLogin" checked="checked">&nbsp;自动登录
+                    </span>
+                    <span class="login_forget"> 
+                        <a href="#find_password_step1" class="fancybox login_forget_pas">忘记密码了？</a>
+                    </span>
+                </div>
+                <button id="btnLogin" name="btnLogin" class="btn fl login_submit">
+                    <span>登　录</span>
+                </button>
+                <div class="clear">
+                </div>
+            </form>
+            <div class="login_relat_account">
+                <em class="account_login">
+                    <label class="fl">合作账户登录：</label>
+                    <a href="#" ><img src="../img/login/zhifubao.png"></a>
+                    <a href="#" ><img src="../img/login/weixin.png"></a>
+                    <a href="#" ><img src="../img/login/weibo.png"></a>
+                </em>
+            </div>
+            <div class="clear"></div>
+        </div>
+	    </div>
+	</div>
+	<div class="supuy_info_box login_foot">
+        <div class="login_coryright">Copyright © 速普商城 2010-2016 All Right Reseved 鲁 ICP 证 09059644 号 
+        </div>
+   		<div class="zizhi">
+        <a href="#"><img src="../img/common/zhizhao.png" width="137" height="47"></a>
+        <a href="#"><img src="../img/common/kxwz.png" ></a>
+        </div>
+    </div>
+    <script src="../lib/jquery-1.12.3.js"></script>
+    <script src="../lib/jquery.cookie.js"></script>
+    <script src="../lib/jquery.slideunlock.js"></script>
+    <script src ="../lib/cookie.js"></script>
+    <script src="../js/login.js"></script>
+</body>
+</html>

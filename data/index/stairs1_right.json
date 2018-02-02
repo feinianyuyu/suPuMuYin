@@ -1,0 +1,32 @@
+{
+	"g0":{	
+		"p1":"女之御 女神辣妈必备",
+		"p2":"孕期也要美美哒",
+		"img":"../img/index/stairs1_box1.jpg"
+	},
+	"g1":{	
+		"p1":"孕妈专用DHA",
+		"p2":"为宝宝提供高质量的营养",
+		"img":"../img/index/stairs1_box2.jpg"
+	},
+	"g2":{	
+		"p1":"三美婴",
+		"p2":"带娃出行好帮手",
+		"img":"../img/index/stairs1_box3.jpg"
+	},
+	"g3":{	
+		"p1":"乐佳善优",
+		"p2":"富含藻油DHA",
+		"img":"../img/index/stairs1_box4.jpg"
+	},
+	"g4":{	
+		"p1":"三洋",
+		"p2":"妈咪包 不至于大",
+		"img":"../img/index/stairs1_box5.jpg"
+	},
+	"g5":{	
+		"p1":"十月天使",
+		"p2":"秋高气爽来补水",
+		"img":"../img/index/stairs1_box6.jpg"
+	}
+}
